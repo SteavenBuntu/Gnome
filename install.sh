@@ -2,13 +2,9 @@
 
 # Gnome Installtion
 yes | sudo apt-get install xorg xterm menu synaptic gnome-session gnome-panel metacity gnome-terminal gnome-control-center --no-install-recommends
-yes | sudo   apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-desktop-icons gnome-shell-extension-gamemode nemo xinit git wget papirus-icon-theme firefox gnome-shell-extension-top-icons-plus gedit pulseaudio network-manager gnome-system-monitor
+yes | sudo   apt install gnome-shell-extensions gnome-shell-extension-manager gnome-tweaks nemo xinit git wget papirus-icon-theme gedit pulseaudio network-manager gnome-system-monitor
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close" 
-gnome-extensions enable dash-to-panel@jderose9.github.com
-gnome-extensions enable desktop-icons@csoriano
-gnome-extensions enable gamemode@christian.kellner.me
-gnome-extensions enable TopIcons@phocean.net
 
 # fonts
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
