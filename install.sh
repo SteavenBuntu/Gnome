@@ -3,7 +3,7 @@
 # Gnome Installtion
 yes | sudo apt-get install xorg xterm menu synaptic gnome-session gnome-panel metacity gnome-terminal gnome-control-center --no-install-recommends
 yes | sudo   apt install gnome-shell-extensions gnome-shell-extension-manager gnome-tweaks nemo xinit git wget papirus-icon-theme gedit pulseaudio network-manager gnome-system-monitor
-
+sudo apt install xserver-xorg-video-all -y
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close" 
 
 # fonts
