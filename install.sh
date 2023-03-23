@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Gnome Installtion
-yes | sudo apt-get install xorg xterm menu gksu synaptic gnome-session gnome-panel metacity gnome-terminal gnome-control-center --no-install-recommends
+yes | sudo apt-get install xorg xterm menu synaptic gnome-session gnome-panel metacity gnome-terminal gnome-control-center --no-install-recommends
 yes | sudo   apt install gnome-shell-extension-dash-to-panel gnome-shell-extension-desktop-icons gnome-shell-extension-gamemode nemo xinit git wget papirus-icon-theme firefox gnome-shell-extension-top-icons-plus gedit pulseaudio network-manager gnome-system-monitor
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close" 
